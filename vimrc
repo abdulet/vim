@@ -15,24 +15,24 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 " let Vundle manage Vundle
 " required! 
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
-Bundle 'gmarik/vundle'
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
+Plugin 'gmarik/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'Lokaltog/vim-easymotion'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
 " vim-scripts repos
 "Bundle 'L9'
 "Bundle 'FuzzyFinder'
-Bundle 'joonty/vim-phpqa.git'
-Bundle 'scrooloose/nerdtree.git'
+Plugin 'joonty/vim-phpqa.git'
+Plugin 'scrooloose/nerdtree.git'
 "Vdebug a debugger for php
-Bundle 'joonty/vdebug.git'
-Bundle "Townk/vim-autoclose.git"
+Plugin 'joonty/vdebug.git'
+Plugin 'Townk/vim-autoclose.git'
 
 " non github repos
-Bundle 'git://git.wincent.com/command-t.git'
+Plugin 'git://git.wincent.com/command-t.git'
 
 filetype plugin indent on     " required!
 

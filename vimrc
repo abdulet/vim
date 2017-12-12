@@ -57,3 +57,4 @@ imap <A-Right> <C-W><Right>
 :imap <C-w> <C-o><C-w>
 
 color desert
+syntax on
